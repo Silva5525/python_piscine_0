@@ -6,7 +6,7 @@
 #    By: wdegraf <wdegraf@student.42heilbronn.de    +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2025/07/07 11:34:07 by wdegraf           #+#    #+#              #
-#    Updated: 2025/07/07 11:42:58 by wdegraf          ###   ########.fr        #
+#    Updated: 2025/07/18 18:38:29 by wdegraf          ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -32,3 +32,6 @@ print(ft_list)
 print(ft_tuple)
 print(ft_set)
 print(ft_dict)
+
+# USAGE:
+# python3 ex00/Hello.py | cat -e
