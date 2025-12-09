@@ -1,14 +1,3 @@
-# **************************************************************************** #
-#                                                                              #
-#                                                         :::      ::::::::    #
-#    format_ft_time.py                                  :+:      :+:    :+:    #
-#                                                     +:+ +:+         +:+      #
-#    By: wdegraf <wdegraf@student.42heilbronn.de    +#+  +:+       +#+         #
-#                                                 +#+#+#+#+#+   +#+            #
-#    Created: 2025/07/18 18:23:47 by wdegraf           #+#    #+#              #
-#    Updated: 2025/07/18 19:06:50 by wdegraf          ###   ########.fr        #
-#                                                                              #
-# **************************************************************************** #
 
 # Import the 'time' module to access time-related functions.
 import time
@@ -35,7 +24,7 @@ print(f"Seconds since January 1, 1970: {epoch_time:,.4f} or {epoch_time:.2e} in 
 # '.strftime("%b %d %y")' formats that datetime into a string:
 #   %b = abbreviated month name (e.g., Jul)
 #   %d = day of the month (e.g., 07)
-#   %Y = last two digits of the year (e.g., 2025)
+#   %Y = last two digits with y or Y for the exakt year (e.g., 2025)
 formatted_date = datetime.now().strftime("%b %d %Y")
 
 # Print the formatted date.

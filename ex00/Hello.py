@@ -1,14 +1,3 @@
-# **************************************************************************** #
-#                                                                              #
-#                                                         :::      ::::::::    #
-#    Hello.py                                           :+:      :+:    :+:    #
-#                                                     +:+ +:+         +:+      #
-#    By: wdegraf <wdegraf@student.42heilbronn.de    +#+  +:+       +#+         #
-#                                                 +#+#+#+#+#+   +#+            #
-#    Created: 2025/07/07 11:34:07 by wdegraf           #+#    #+#              #
-#    Updated: 2025/07/18 18:38:29 by wdegraf          ###   ########.fr        #
-#                                                                              #
-# **************************************************************************** #
 
 # List: An ordered, mutable (changeable) collection of items.
 # Lists can contain duplicate values, and you can add, remove, or change elements.

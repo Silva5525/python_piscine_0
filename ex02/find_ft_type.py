@@ -1,14 +1,3 @@
-# **************************************************************************** #
-#                                                                              #
-#                                                         :::      ::::::::    #
-#    find_ft_type.py                                    :+:      :+:    :+:    #
-#                                                     +:+ +:+         +:+      #
-#    By: wdegraf <wdegraf@student.42heilbronn.de    +#+  +:+       +#+         #
-#                                                 +#+#+#+#+#+   +#+            #
-#    Created: 2025/07/18 19:23:38 by wdegraf           #+#    #+#              #
-#    Updated: 2025/07/21 15:18:32 by wdegraf          ###   ########.fr        #
-#                                                                              #
-# **************************************************************************** #
 
 # Define a function that takes any type of object and returns an integer.
 # define with Parameter name: "all_thing_is_obj"
