@@ -3,12 +3,12 @@ building.py — Count character categories in a given text.
 
 Behavior:
 - If no argument is provided:
-    • Prompt the user: "What is the text to count?"
-    • Read from standard input until EOF (so the final newline is included).
+    - Prompt the user: "What is the text to count?"
+    - Read from standard input until EOF (so the final newline is included).
 - If exactly one argument is provided:
-    • Use that argument as the text to analyze.
+    - Use that argument as the text to analyze.
 - If more than one argument is provided:
-    • Print "AssertionError: more than one argument is provided".
+    - Print "AssertionError: more than one argument is provided".
 
 The program displays:
 - Total number of characters
