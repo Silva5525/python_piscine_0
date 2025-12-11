@@ -1,15 +1,18 @@
 
 # List: An ordered, mutable (changeable) collection of items.
-# Lists can contain duplicate values, and you can add, remove, or change elements.
+# Lists can contain duplicate values, and you can add,
+# remove, or change elements.
 ft_list = ["Hello", "World!"]
 
 # Tuple: An ordered, immutable (unchangeable) collection of items.
-# Tuples can also contain duplicates, but once created, their contents cannot be modified.
+# Tuples can also contain duplicates, but once created,
+# their contents cannot be modified.
 ft_tuple = ("Hello", "Deutschland!")
 
 # Set: An unordered collection of unique elements.
 # Sets do not allow duplicates, and the order is not preserved.
-# Useful for storing distinct items and performing set operations like union or intersection.
+# Useful for storing distinct items and performing set
+# operations like union or intersection.
 ft_set = {"Hello", "Heilbronn!"}
 
 # Dictionary: A collection of key-value pairs.

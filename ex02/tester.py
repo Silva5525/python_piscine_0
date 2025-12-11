@@ -5,7 +5,7 @@ from find_ft_type import all_thing_is_obj
 ft_list = ["Hello", "tata!"]
 ft_tuple = ("Hello", "toto!")
 ft_set = {"Hello", "tutu!"}
-ft_dict = {"Hello" : "titi!"}
+ft_dict = {"Hello": "titi!"}
 all_thing_is_obj(ft_list)
 all_thing_is_obj(ft_tuple)
 all_thing_is_obj(ft_set)
@@ -14,5 +14,5 @@ all_thing_is_obj("Brian")
 all_thing_is_obj("Toto")
 print(all_thing_is_obj(10))
 
-#USAGE:
+# USAGE:
 # python3 tester.py | cat -e
