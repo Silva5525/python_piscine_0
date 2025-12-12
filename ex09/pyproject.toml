@@ -1,0 +1,51 @@
+[build-system]
+# Which tools are needed to build the package and their versions.
+requires = ["setuptools>=61.0"]
+# The Python object that actually performs the build.
+build-backend = "setuptools.build_meta"
+
+# Project metadata (what pip / PyPI / pip show see)
+[project]
+# The package name users install: `pip install ft_package`
+name = "ft_package"
+
+# The version of your package.
+version = "0.0.1"
+
+# Short summary shown by `pip show ft_package` as "Summary".
+description = "My sample test package for ft_package"
+
+# Long description (e.g. for PyPI); points to this file in your project.
+readme = "README.md"
+
+# Minimum supported Python version.
+requires-python = ">=3.8"
+
+# List of authors as name/email pairs.
+authors = [
+  { name = "wdegraf", email = "vieleichtpokemon7@gmail.com" }
+]
+
+# License as an SPDX string.
+license = "MIT"
+
+# Classifiers are standardized tags understood by PyPI.
+# They describe Python version, OS support, etc.
+classifiers = [
+  "Programming Language :: Python :: 3",
+  "Programming Language :: Python :: 3 :: Only",
+  "Operating System :: OS Independent",
+]
+
+# Extra URLs shown in metadata (Homepage, docs, etc.)
+[project.urls]
+Homepage = "https://github.com/Silva5525/python_piscine_0/tree/main/ex09"
+
+# Setuptools configuration
+[tool.setuptools]
+# Tell setuptools that all importable packages live under `src/`.
+package-dir = {"" = "src"}
+
+# How to find packages under `src/`.
+[tool.setuptools.packages.find]
+where = ["src"]
