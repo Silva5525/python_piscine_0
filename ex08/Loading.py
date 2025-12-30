@@ -9,6 +9,7 @@ Behavior:
       updated in place, in the form:
 
         100%|[==============================]| 333/333
+
 """
 
 # Iterable, Iterator are protocol types used only for type hints:
@@ -52,6 +53,11 @@ def ft_tqdm(lst: Iterable[T]) -> Iterator[T]:
         # end='' avoids printing a newline, flush ensures immediate update.
         print(f"\r{percent:3d}%|[{bar}]| {idx}/{total}", end="", flush=True)
 
+        # 'yield' turns this function into a generator:
+        # - It produces one value at a time.
+        # - Execution pauses at 'yield elem' and resumes on the next iteration.
+        # - This makes ft_tqdm behave like an iterator, just like tqdm:
+        #       it updates the progress bar, then hands back the next element.
         yield elem
 
     # Finish with a newline so the next print starts on a new line.
@@ -60,3 +66,6 @@ def ft_tqdm(lst: Iterable[T]) -> Iterator[T]:
 
 if __name__ == "__main__":
     pass
+
+# USAGE:
+# python3 tester.py
